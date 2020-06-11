@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.3;
+}
+a {
+  color: #5334f5;
+  text-decoration: none;
+  font-weight: 400;
+}
+.Hero {
+  background: url('../images/wallpaper3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 790px;
+  position: relative;
+}
+.HeroGroup {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 150px 50px;
+  text-align: center;
+}
+.Hero h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  opacity: 0;
+  animation: HeroAnimation 2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.Hero p {
+  color: #fff;
+  opacity: 0;
+  animation: HeroAnimation 2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.Hero p:nth-child(3) {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.Hero a {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: black;
+  padding: 10px 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 290486px;
+  transition: 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.Hero a:hover,
+.Hero a:after {
+  background-color: white;
+  color: rgb(29, 26, 26);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.Hero .logos {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 80px 0;
+  grid-gap: 40px;
+}
+.Cards h2 {
+  margin: 20px 50px;
+  text-align: center;
+  font-size: 80px;
+  background: linear-gradient(104deg, #050a27 0%, #4a548c 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.cardGroup {
+  margin: 50px 20px 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  justify-items: center;
+}
+@media (max-width: 646px) {
+  .HeroGroup {
+    padding: 100px 20px;
+  }
+  .Hero h1 {
+    font-size: 2.5rem;
+  }
+  .Hero p:nth-child(2) {
+    font-size: 1.2rem;
+  }
+  .Hero .logos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .Hero .logos img {
+    width: 45px;
+  }
+  .Cards h2 {
+    font-size: 25px;
+  }
+  .cardGroup {
+    grid-template-columns: 1fr;
+  }
+}
+
+@keyframes HeroAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.Hero svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+@media (min-width: 1068px) {
+  .cardGroup {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

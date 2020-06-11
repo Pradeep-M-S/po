@@ -1,0 +1,48 @@
+{
+  "cells": [
+    {
+      "title": "Intro to React",
+      "image": "https://www.pngitem.com/pimgs/m/167-1672945_react-native-icon-svg-hd-png-download.png"
+    },
+    {
+      "title": "Basic Styling in CSS",
+      "image": "https://www.pngitem.com/pimgs/m/167-1672945_react-native-icon-svg-hd-png-download.png"
+    },
+    {
+      "title": "Adaptive Layout with CSS Grid",
+      "image": "https://www.pngitem.com/pimgs/m/167-1672945_react-native-icon-svg-hd-png-download.png"
+    },
+    {
+      "title": "Interactions and Animation",
+      "image": "https://www.pngitem.com/pimgs/m/167-1672945_react-native-icon-svg-hd-png-download.png"
+    },
+    {
+      "title": "SVG Animation ",
+      "image": "https://www.pngitem.com/pimgs/m/167-1672945_react-native-icon-svg-hd-png-download.png"
+    },
+    {
+      "title": "Components and Props",
+      "image": "https://www.pngitem.com/pimgs/m/167-1672945_react-native-icon-svg-hd-png-download.png"
+    },
+    {
+      "title": "States and Events",
+      "image": "https://www.pngitem.com/pimgs/m/167-1672945_react-native-icon-svg-hd-png-download.png"
+    },
+    {
+      "title": "Styled Components",
+      "image": "https://www.pngitem.com/pimgs/m/167-1672945_react-native-icon-svg-hd-png-download.png"
+    },
+    {
+      "title": "Static Data withn JSON",
+      "image": "https://www.pngitem.com/pimgs/m/167-1672945_react-native-icon-svg-hd-png-download.png"
+    },
+    {
+      "title": "Deployment",
+      "image": "https://www.pngitem.com/pimgs/m/167-1672945_react-native-icon-svg-hd-png-download.png"
+    },
+    {
+      "title": "Pubish to Netlify",
+      "image": "https://www.pngitem.com/pimgs/m/167-1672945_react-native-icon-svg-hd-png-download.png"
+    }
+  ]
+}
